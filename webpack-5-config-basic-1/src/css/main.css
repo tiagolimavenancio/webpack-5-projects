@@ -4,6 +4,7 @@ body {
 
 h1 {
   color: aquamarine;
+  background: url("../img/grass-bg.jpg");
 }
 
 h2 {
