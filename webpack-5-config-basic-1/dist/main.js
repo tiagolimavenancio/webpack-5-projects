@@ -1,1 +1,1 @@
-!function(){console.log("Start");const t=document.createElement("h2");t.innerText="This title is static!!!",t.classList.add("main-title"),document.querySelector("body").appendChild(t),console.log("End")}();
+!function(){console.log("Start");var e=document.createElement("h2");e.innerText="Webpack with Babel ".concat("is great","!!!"),document.querySelector("body").appendChild(e),console.log("End")}();

@@ -15,6 +15,16 @@ module.exports = {
         test: /\.css$/,
         use: "css-loader",
       },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            cacheDirectory: true,
+          },
+        },
+      },
     ],
   },
 };

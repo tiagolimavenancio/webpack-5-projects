@@ -1,8 +1,9 @@
 console.log("Start");
 
 const heading = document.createElement("h2");
-heading.innerText = "This title is static!!!";
-heading.classList.add("main-title");
+const message = "is great";
+
+heading.innerText = `Webpack with Babel ${message}!!!`;
 document.querySelector("body").appendChild(heading);
 
 console.log("End");
