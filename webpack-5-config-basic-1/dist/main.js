@@ -1,1 +1,1 @@
-console.log("Hello, Webpack");
+!function(){console.log("Start");const t=document.createElement("h2");t.innerText="This title is static!!!",t.classList.add("main-title"),document.querySelector("body").appendChild(t),console.log("End")}();
