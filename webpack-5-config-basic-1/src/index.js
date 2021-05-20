@@ -1,3 +1,5 @@
+import "./css/main.css";
+
 console.log("Start");
 
 const heading = document.createElement("h2");
