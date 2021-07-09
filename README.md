@@ -1,1 +1,1 @@
-# webpack-5-projects
+# Webpack 5
